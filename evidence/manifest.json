@@ -1,0 +1,51 @@
+{
+  "adaptation_rule": "any original Synapse development failure -> prompt; otherwise compact context",
+  "budget_cap_nano_usd": 10000000000,
+  "case_hashes": {
+    "development-01": "b049839fb75882f19c0b8dd8752091c380f00ca4edd1c2559a1a0b9db9b3460c",
+    "development-02": "400a8988fca3b218acf662d3d8bed22c16feb8def52507c4ac6a6f7e9f58d512",
+    "development-03": "4011bad13c9ec2804b5673725187c668d25b9534ab93faf351b53e8493e89237",
+    "development-04": "ea4633b9374b1b2b69033684321c7f53fdf3855de69024349f82e362eba5bb13",
+    "development-05": "788e73a10393050b04780affb4b011b39e61b32ee65f692cf23bfaf0a0a57869",
+    "development-06": "33e55c9749c33960ebb485a3517062e2c6381418ea4e22bd960396907dd8d460",
+    "test-01": "068700de0763ece2cab114a021ebfd7920f67212f840772b5d5a6d1debb127a0",
+    "test-02": "20906572c80c8efb5af5f061c16e2e9a0eaa5a9faac4e28733db311ce184d820",
+    "test-03": "9668a85aa73901210ad1b7b22e6621c8c756d56789b2ae2b137b06d67312fbed",
+    "test-04": "ac9ac58e6a29983b848ca5224522b8658481efb685301e371a44a3c32b37a1e3",
+    "test-05": "713c24974f22f36e4b0ce7bd900aaeeaf8864621bbe3eb5b46fe6e096be5e48f",
+    "test-06": "5f38e249e7fb6b8af30dcd983d684e9581f59246dc0e436acf822b4ec625ca7a",
+    "test-07": "9cb122e1d0548798af741b95d2e5616bca911ae3ea214f32c9e55fb399838255",
+    "test-08": "0fdd02bcf321bf65da82e97dff4e553f9c708c1556283dd3293e4c474f23ce4f",
+    "test-09": "0561a54fd6cd6413f7d7f10dc60b0f969860f02e83e43416c6ebc3968e0c84e2",
+    "test-10": "a908e9342d8dbc0d3fa922b85b0beb9c2f7e902f15ea01c1e9d3e6c73ca06b8b",
+    "test-11": "2c9ba041f880cb48a769c72c4906120428ad58d190cf91d47cbc904317303218",
+    "test-12": "9bf845eeb626b3d4788496ac1108b5d559732769965c8439c61844bb4c2e5825",
+    "test-13": "7f557a7f2c53c517694a36647eb055036971ebe56545fc575d62aeacb9fec31a",
+    "test-14": "58d6eb07c4fdc0d011498edce17c7e4f82a558d98253c141bfbf22b6cb35a815"
+  },
+  "code_hashes": {
+    "benchmarks/current_fact.py": "870c46a6aa398fc0cabae1535914709c938cd2956f75b27d65ce7e2857420892",
+    "benchmarks/experiment.py": "af856c3d7326d9bdcb412585fa345456b887195c4bd617fd04c12080c0f34a97",
+    "benchmarks/scoring.py": "3f61d8f42900cd1c12b4f45260da44aae4adb0b01877d42be643e19eef17a338"
+  },
+  "created_at": "2026-11-02T18:55:41.723464+00:00",
+  "effort": "low",
+  "environment": "local real SQLite and service over loopback HTTP; local RS256 test issuer",
+  "inference": "one model completion per trial; fixed low effort; no automatic retries, caching, or fallback",
+  "max_output_tokens": 2048,
+  "model": "claude-haiku-5-5",
+  "planned_trials": {
+    "development": 24,
+    "retest": 12,
+    "test": 126
+  },
+  "pricing": {
+    "checked_on": "2026-11-02",
+    "input_nano_usd_per_token_over_100000": 500,
+    "input_nano_usd_per_token_up_to_100000": 100,
+    "output_nano_usd_per_token_over_100000": 2500,
+    "output_nano_usd_per_token_up_to_100000": 500,
+    "source": "https://platform.claude.com/docs/en/about-claude/pricing"
+  },
+  "primary_metric": "exact reference, correct current source entry ID, and correct status"
+}

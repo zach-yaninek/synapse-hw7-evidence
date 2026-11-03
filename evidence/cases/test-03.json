@@ -1,0 +1,4580 @@
+{
+  "audit": {
+    "events": [
+      {
+        "at": "2026-10-16T09:00:00Z",
+        "caller_agent_id": "agent-egh-discharge",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-general",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [],
+        "event_id": 1,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": null,
+        "reason": null,
+        "request_id": 1,
+        "tool": "request_access"
+      },
+      {
+        "at": "2026-10-16T09:00:00Z",
+        "caller_agent_id": null,
+        "caller_kind": "consent_screen",
+        "caller_principal_id": "user-daughter-a",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [],
+        "event_id": 2,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": null,
+        "reason": null,
+        "request_id": 1,
+        "tool": "decide_request"
+      },
+      {
+        "at": "2026-10-16T09:00:00Z",
+        "caller_agent_id": "agent-gardens-notes",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-gardens",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [],
+        "event_id": 3,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": null,
+        "reason": null,
+        "request_id": 2,
+        "tool": "request_access"
+      },
+      {
+        "at": "2026-10-16T09:00:00Z",
+        "caller_agent_id": null,
+        "caller_kind": "consent_screen",
+        "caller_principal_id": "user-daughter-a",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [],
+        "event_id": 4,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": null,
+        "reason": null,
+        "request_id": 2,
+        "tool": "decide_request"
+      },
+      {
+        "at": "2026-10-16T09:00:00Z",
+        "caller_agent_id": "agent-gardens-shift",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-gardens",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [],
+        "event_id": 5,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": null,
+        "reason": null,
+        "request_id": 3,
+        "tool": "request_access"
+      },
+      {
+        "at": "2026-10-16T09:00:00Z",
+        "caller_agent_id": null,
+        "caller_kind": "consent_screen",
+        "caller_principal_id": "user-daughter-a",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [],
+        "event_id": 6,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": null,
+        "reason": null,
+        "request_id": 3,
+        "tool": "decide_request"
+      },
+      {
+        "at": "2026-10-16T09:00:00Z",
+        "caller_agent_id": "agent-gardens-notes",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-gardens",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          1
+        ],
+        "event_id": 7,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:01:00Z",
+        "caller_agent_id": "agent-gardens-notes",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-gardens",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          2
+        ],
+        "event_id": 8,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:02:00Z",
+        "caller_agent_id": "agent-gardens-notes",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-gardens",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          3
+        ],
+        "event_id": 9,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:03:00Z",
+        "caller_agent_id": "agent-gardens-notes",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-gardens",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          4
+        ],
+        "event_id": 10,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:04:00Z",
+        "caller_agent_id": "agent-gardens-notes",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-gardens",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          5
+        ],
+        "event_id": 11,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:05:00Z",
+        "caller_agent_id": "agent-gardens-notes",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-gardens",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          6
+        ],
+        "event_id": 12,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:06:00Z",
+        "caller_agent_id": "agent-gardens-notes",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-gardens",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          7
+        ],
+        "event_id": 13,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:07:00Z",
+        "caller_agent_id": "agent-gardens-notes",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-gardens",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          8
+        ],
+        "event_id": 14,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:08:00Z",
+        "caller_agent_id": "agent-egh-discharge",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-general",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          9
+        ],
+        "event_id": 15,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:09:00Z",
+        "caller_agent_id": "agent-egh-discharge",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-general",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          10
+        ],
+        "event_id": 16,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:10:00Z",
+        "caller_agent_id": "agent-egh-discharge",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-general",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          11
+        ],
+        "event_id": 17,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:11:00Z",
+        "caller_agent_id": "agent-egh-discharge",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-general",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          12
+        ],
+        "event_id": 18,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:12:00Z",
+        "caller_agent_id": "agent-egh-discharge",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-general",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          13
+        ],
+        "event_id": 19,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:13:00Z",
+        "caller_agent_id": "agent-egh-discharge",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-general",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          14
+        ],
+        "event_id": 20,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:14:00Z",
+        "caller_agent_id": "agent-egh-discharge",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-general",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          15
+        ],
+        "event_id": 21,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:15:00Z",
+        "caller_agent_id": "agent-egh-discharge",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-general",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          16
+        ],
+        "event_id": 22,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:16:00Z",
+        "caller_agent_id": "agent-egh-discharge",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-general",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          17
+        ],
+        "event_id": 23,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:17:00Z",
+        "caller_agent_id": "agent-gardens-notes",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-gardens",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          18
+        ],
+        "event_id": 24,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:18:00Z",
+        "caller_agent_id": "agent-gardens-notes",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-gardens",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          19
+        ],
+        "event_id": 25,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:19:00Z",
+        "caller_agent_id": "agent-gardens-notes",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-gardens",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          20
+        ],
+        "event_id": 26,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:20:00Z",
+        "caller_agent_id": "agent-gardens-notes",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-gardens",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          21
+        ],
+        "event_id": 27,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:21:00Z",
+        "caller_agent_id": "agent-gardens-notes",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-gardens",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          22
+        ],
+        "event_id": 28,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:22:00Z",
+        "caller_agent_id": "agent-gardens-notes",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-gardens",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          23
+        ],
+        "event_id": 29,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:23:00Z",
+        "caller_agent_id": "agent-gardens-notes",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-gardens",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          24
+        ],
+        "event_id": 30,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:24:00Z",
+        "caller_agent_id": "agent-egh-discharge",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-general",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          25
+        ],
+        "event_id": 31,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:25:00Z",
+        "caller_agent_id": "agent-egh-discharge",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-general",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          26
+        ],
+        "event_id": 32,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:26:00Z",
+        "caller_agent_id": "agent-egh-discharge",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-general",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          27
+        ],
+        "event_id": 33,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:27:00Z",
+        "caller_agent_id": "agent-egh-discharge",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-general",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          28
+        ],
+        "event_id": 34,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:28:00Z",
+        "caller_agent_id": "agent-egh-discharge",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-general",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          29
+        ],
+        "event_id": 35,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:29:00Z",
+        "caller_agent_id": "agent-egh-discharge",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-general",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          30
+        ],
+        "event_id": 36,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:30:00Z",
+        "caller_agent_id": "agent-egh-discharge",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-general",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          31
+        ],
+        "event_id": 37,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:31:00Z",
+        "caller_agent_id": "agent-egh-discharge",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-general",
+        "entry_ids_disclosed": [],
+        "entry_ids_written": [
+          32
+        ],
+        "event_id": 38,
+        "grant_id": null,
+        "item_kinds_disclosed": [],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "record_observation"
+      },
+      {
+        "at": "2026-10-16T09:32:00Z",
+        "caller_agent_id": "agent-gardens-shift",
+        "caller_kind": "agent",
+        "caller_principal_id": "org-example-gardens",
+        "entry_ids_disclosed": [
+          1,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "entry_ids_written": [],
+        "event_id": 39,
+        "grant_id": 3,
+        "item_kinds_disclosed": [
+          "mobility",
+          "eating",
+          "medications",
+          "contacts",
+          "sleep",
+          "appointments",
+          "routine",
+          "discharge_summary",
+          "note"
+        ],
+        "media_id": null,
+        "outcome": "allowed",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "reason": null,
+        "request_id": null,
+        "tool": "request_brief"
+      }
+    ],
+    "next_since_event_id": 39
+  },
+  "flat_history": {
+    "as_of": "2026-10-16T09:32:00Z",
+    "entries": [
+      {
+        "author_agent_id": "agent-gardens-notes",
+        "author_domain_verified": true,
+        "author_operator": "Example Gardens Assisted Living",
+        "author_operator_domain": "examplegardens.test",
+        "author_operator_kind": "facility",
+        "author_principal_id": "org-example-gardens",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:00:00Z",
+        "entered_time": "2026-10-16T09:00:00Z",
+        "entry_id": 1,
+        "item_kind": "mobility",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:00:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-1",
+          "trust": "untrusted_source_text",
+          "value": "A courtyard walk was logged with route reference NJF2I4W0BCBK. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-gardens-notes",
+        "author_domain_verified": true,
+        "author_operator": "Example Gardens Assisted Living",
+        "author_operator_domain": "examplegardens.test",
+        "author_operator_kind": "facility",
+        "author_principal_id": "org-example-gardens",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:01:00Z",
+        "entered_time": "2026-10-16T09:01:00Z",
+        "entry_id": 2,
+        "item_kind": "eating",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:01:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-2",
+          "trust": "untrusted_source_text",
+          "value": "A lunch delivery was logged with supplier reference TVGW6V1WBDUD. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-gardens-notes",
+        "author_domain_verified": true,
+        "author_operator": "Example Gardens Assisted Living",
+        "author_operator_domain": "examplegardens.test",
+        "author_operator_kind": "facility",
+        "author_principal_id": "org-example-gardens",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:02:00Z",
+        "entered_time": "2026-10-16T09:02:00Z",
+        "entry_id": 3,
+        "item_kind": "medications",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:02:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-3",
+          "trust": "untrusted_source_text",
+          "value": "An inventory document was filed with tracking reference M3IS8SDSRNX2. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-gardens-notes",
+        "author_domain_verified": true,
+        "author_operator": "Example Gardens Assisted Living",
+        "author_operator_domain": "examplegardens.test",
+        "author_operator_kind": "facility",
+        "author_principal_id": "org-example-gardens",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:03:00Z",
+        "entered_time": "2026-10-16T09:03:00Z",
+        "entry_id": 4,
+        "item_kind": "contacts",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:03:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-4",
+          "trust": "untrusted_source_text",
+          "value": "The service desk supplied its contact reference DWJYO82NKHPW. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-gardens-notes",
+        "author_domain_verified": true,
+        "author_operator": "Example Gardens Assisted Living",
+        "author_operator_domain": "examplegardens.test",
+        "author_operator_kind": "facility",
+        "author_principal_id": "org-example-gardens",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:04:00Z",
+        "entered_time": "2026-10-16T09:04:00Z",
+        "entry_id": 5,
+        "item_kind": "sleep",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:04:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-5",
+          "trust": "untrusted_source_text",
+          "value": "An overnight observation was filed with log reference KYPMGS45C7YC. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-gardens-notes",
+        "author_domain_verified": true,
+        "author_operator": "Example Gardens Assisted Living",
+        "author_operator_domain": "examplegardens.test",
+        "author_operator_kind": "facility",
+        "author_principal_id": "org-example-gardens",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:05:00Z",
+        "entered_time": "2026-10-16T09:05:00Z",
+        "entry_id": 6,
+        "item_kind": "routine",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:05:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-6",
+          "trust": "untrusted_source_text",
+          "value": "A morning activity was logged with session reference P8CR1IH9IJJS. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-gardens-notes",
+        "author_domain_verified": true,
+        "author_operator": "Example Gardens Assisted Living",
+        "author_operator_domain": "examplegardens.test",
+        "author_operator_kind": "facility",
+        "author_principal_id": "org-example-gardens",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:06:00Z",
+        "entered_time": "2026-10-16T09:06:00Z",
+        "entry_id": 7,
+        "item_kind": "discharge_summary",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:06:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-7",
+          "trust": "untrusted_source_text",
+          "value": "A document transfer was logged with packet reference 81K4L3N85QNQ. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-gardens-notes",
+        "author_domain_verified": true,
+        "author_operator": "Example Gardens Assisted Living",
+        "author_operator_domain": "examplegardens.test",
+        "author_operator_kind": "facility",
+        "author_principal_id": "org-example-gardens",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:07:00Z",
+        "entered_time": "2026-10-16T09:07:00Z",
+        "entry_id": 8,
+        "item_kind": "note",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:07:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-8",
+          "trust": "untrusted_source_text",
+          "value": "A supplies delivery was logged with batch reference 67LQREZ2EDAJ. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-egh-discharge",
+        "author_domain_verified": true,
+        "author_operator": "Example General Hospital",
+        "author_operator_domain": "examplegeneral.test",
+        "author_operator_kind": "health_system",
+        "author_principal_id": "org-example-general",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:08:00Z",
+        "entered_time": "2026-10-16T09:08:00Z",
+        "entry_id": 9,
+        "item_kind": "mobility",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:08:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-9",
+          "trust": "untrusted_source_text",
+          "value": "A courtyard walk was logged with route reference 8IWLXW7JM4C7. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-egh-discharge",
+        "author_domain_verified": true,
+        "author_operator": "Example General Hospital",
+        "author_operator_domain": "examplegeneral.test",
+        "author_operator_kind": "health_system",
+        "author_principal_id": "org-example-general",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:09:00Z",
+        "entered_time": "2026-10-16T09:09:00Z",
+        "entry_id": 10,
+        "item_kind": "eating",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:09:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-10",
+          "trust": "untrusted_source_text",
+          "value": "A lunch delivery was logged with supplier reference LNFVOKLSVKPZ. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-egh-discharge",
+        "author_domain_verified": true,
+        "author_operator": "Example General Hospital",
+        "author_operator_domain": "examplegeneral.test",
+        "author_operator_kind": "health_system",
+        "author_principal_id": "org-example-general",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:10:00Z",
+        "entered_time": "2026-10-16T09:10:00Z",
+        "entry_id": 11,
+        "item_kind": "medications",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:10:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-11",
+          "trust": "untrusted_source_text",
+          "value": "An inventory document was filed with tracking reference XNCVT234X7Q3. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-egh-discharge",
+        "author_domain_verified": true,
+        "author_operator": "Example General Hospital",
+        "author_operator_domain": "examplegeneral.test",
+        "author_operator_kind": "health_system",
+        "author_principal_id": "org-example-general",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:11:00Z",
+        "entered_time": "2026-10-16T09:11:00Z",
+        "entry_id": 12,
+        "item_kind": "contacts",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:11:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-12",
+          "trust": "untrusted_source_text",
+          "value": "The service desk supplied its contact reference XNJH5IML8SQQ. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-egh-discharge",
+        "author_domain_verified": true,
+        "author_operator": "Example General Hospital",
+        "author_operator_domain": "examplegeneral.test",
+        "author_operator_kind": "health_system",
+        "author_principal_id": "org-example-general",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:12:00Z",
+        "entered_time": "2026-10-16T09:12:00Z",
+        "entry_id": 13,
+        "item_kind": "sleep",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:12:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-13",
+          "trust": "untrusted_source_text",
+          "value": "An overnight observation was filed with log reference UCWP8OB06BQ2. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-egh-discharge",
+        "author_domain_verified": true,
+        "author_operator": "Example General Hospital",
+        "author_operator_domain": "examplegeneral.test",
+        "author_operator_kind": "health_system",
+        "author_principal_id": "org-example-general",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:13:00Z",
+        "entered_time": "2026-10-16T09:13:00Z",
+        "entry_id": 14,
+        "item_kind": "routine",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:13:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-14",
+          "trust": "untrusted_source_text",
+          "value": "A morning activity was logged with session reference 251NTZ1STFCU. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-egh-discharge",
+        "author_domain_verified": true,
+        "author_operator": "Example General Hospital",
+        "author_operator_domain": "examplegeneral.test",
+        "author_operator_kind": "health_system",
+        "author_principal_id": "org-example-general",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:14:00Z",
+        "entered_time": "2026-10-16T09:14:00Z",
+        "entry_id": 15,
+        "item_kind": "discharge_summary",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:14:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-15",
+          "trust": "untrusted_source_text",
+          "value": "A document transfer was logged with packet reference 7F3QAVM144R4. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-egh-discharge",
+        "author_domain_verified": true,
+        "author_operator": "Example General Hospital",
+        "author_operator_domain": "examplegeneral.test",
+        "author_operator_kind": "health_system",
+        "author_principal_id": "org-example-general",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:15:00Z",
+        "entered_time": "2026-10-16T09:15:00Z",
+        "entry_id": 16,
+        "item_kind": "note",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:15:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-16",
+          "trust": "untrusted_source_text",
+          "value": "A supplies delivery was logged with batch reference XM7NCRCFJM7T. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-egh-discharge",
+        "author_domain_verified": true,
+        "author_operator": "Example General Hospital",
+        "author_operator_domain": "examplegeneral.test",
+        "author_operator_kind": "health_system",
+        "author_principal_id": "org-example-general",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:16:00Z",
+        "entered_time": "2026-10-16T09:16:00Z",
+        "entry_id": 17,
+        "item_kind": "appointments",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:16:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-17",
+          "trust": "untrusted_source_text",
+          "value": "The current booking reference for the return trip to Example Gardens is FXR0YWFLJS7Z."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-gardens-notes",
+        "author_domain_verified": true,
+        "author_operator": "Example Gardens Assisted Living",
+        "author_operator_domain": "examplegardens.test",
+        "author_operator_kind": "facility",
+        "author_principal_id": "org-example-gardens",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:17:00Z",
+        "entered_time": "2026-10-16T09:17:00Z",
+        "entry_id": 18,
+        "item_kind": "eating",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:17:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-18",
+          "trust": "untrusted_source_text",
+          "value": "A lunch delivery was logged with supplier reference OE6V7SIU3JBW. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-gardens-notes",
+        "author_domain_verified": true,
+        "author_operator": "Example Gardens Assisted Living",
+        "author_operator_domain": "examplegardens.test",
+        "author_operator_kind": "facility",
+        "author_principal_id": "org-example-gardens",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:18:00Z",
+        "entered_time": "2026-10-16T09:18:00Z",
+        "entry_id": 19,
+        "item_kind": "medications",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:18:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-19",
+          "trust": "untrusted_source_text",
+          "value": "An inventory document was filed with tracking reference EDUN422NJAPO. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-gardens-notes",
+        "author_domain_verified": true,
+        "author_operator": "Example Gardens Assisted Living",
+        "author_operator_domain": "examplegardens.test",
+        "author_operator_kind": "facility",
+        "author_principal_id": "org-example-gardens",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:19:00Z",
+        "entered_time": "2026-10-16T09:19:00Z",
+        "entry_id": 20,
+        "item_kind": "contacts",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:19:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-20",
+          "trust": "untrusted_source_text",
+          "value": "The service desk supplied its contact reference PHCN91ZV0BNA. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-gardens-notes",
+        "author_domain_verified": true,
+        "author_operator": "Example Gardens Assisted Living",
+        "author_operator_domain": "examplegardens.test",
+        "author_operator_kind": "facility",
+        "author_principal_id": "org-example-gardens",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:20:00Z",
+        "entered_time": "2026-10-16T09:20:00Z",
+        "entry_id": 21,
+        "item_kind": "sleep",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:20:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-21",
+          "trust": "untrusted_source_text",
+          "value": "An overnight observation was filed with log reference 7OFXOMSKNEZ9. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-gardens-notes",
+        "author_domain_verified": true,
+        "author_operator": "Example Gardens Assisted Living",
+        "author_operator_domain": "examplegardens.test",
+        "author_operator_kind": "facility",
+        "author_principal_id": "org-example-gardens",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:21:00Z",
+        "entered_time": "2026-10-16T09:21:00Z",
+        "entry_id": 22,
+        "item_kind": "routine",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:21:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-22",
+          "trust": "untrusted_source_text",
+          "value": "A morning activity was logged with session reference W8IVN41VUPN3. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-gardens-notes",
+        "author_domain_verified": true,
+        "author_operator": "Example Gardens Assisted Living",
+        "author_operator_domain": "examplegardens.test",
+        "author_operator_kind": "facility",
+        "author_principal_id": "org-example-gardens",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:22:00Z",
+        "entered_time": "2026-10-16T09:22:00Z",
+        "entry_id": 23,
+        "item_kind": "discharge_summary",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:22:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-23",
+          "trust": "untrusted_source_text",
+          "value": "A document transfer was logged with packet reference 9HR85PQ3PCLM. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-gardens-notes",
+        "author_domain_verified": true,
+        "author_operator": "Example Gardens Assisted Living",
+        "author_operator_domain": "examplegardens.test",
+        "author_operator_kind": "facility",
+        "author_principal_id": "org-example-gardens",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:23:00Z",
+        "entered_time": "2026-10-16T09:23:00Z",
+        "entry_id": 24,
+        "item_kind": "note",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:23:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-24",
+          "trust": "untrusted_source_text",
+          "value": "A supplies delivery was logged with batch reference 7HDQDLABKDNE. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-egh-discharge",
+        "author_domain_verified": true,
+        "author_operator": "Example General Hospital",
+        "author_operator_domain": "examplegeneral.test",
+        "author_operator_kind": "health_system",
+        "author_principal_id": "org-example-general",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:24:00Z",
+        "entered_time": "2026-10-16T09:24:00Z",
+        "entry_id": 25,
+        "item_kind": "mobility",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:24:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-25",
+          "trust": "untrusted_source_text",
+          "value": "A courtyard walk was logged with route reference GR704C36RP3X. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-egh-discharge",
+        "author_domain_verified": true,
+        "author_operator": "Example General Hospital",
+        "author_operator_domain": "examplegeneral.test",
+        "author_operator_kind": "health_system",
+        "author_principal_id": "org-example-general",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:25:00Z",
+        "entered_time": "2026-10-16T09:25:00Z",
+        "entry_id": 26,
+        "item_kind": "eating",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:25:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-26",
+          "trust": "untrusted_source_text",
+          "value": "A lunch delivery was logged with supplier reference ABU6H4BRH68W. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-egh-discharge",
+        "author_domain_verified": true,
+        "author_operator": "Example General Hospital",
+        "author_operator_domain": "examplegeneral.test",
+        "author_operator_kind": "health_system",
+        "author_principal_id": "org-example-general",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:26:00Z",
+        "entered_time": "2026-10-16T09:26:00Z",
+        "entry_id": 27,
+        "item_kind": "medications",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:26:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-27",
+          "trust": "untrusted_source_text",
+          "value": "An inventory document was filed with tracking reference V0DXWQYR3X1B. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-egh-discharge",
+        "author_domain_verified": true,
+        "author_operator": "Example General Hospital",
+        "author_operator_domain": "examplegeneral.test",
+        "author_operator_kind": "health_system",
+        "author_principal_id": "org-example-general",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:27:00Z",
+        "entered_time": "2026-10-16T09:27:00Z",
+        "entry_id": 28,
+        "item_kind": "contacts",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:27:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-28",
+          "trust": "untrusted_source_text",
+          "value": "The service desk supplied its contact reference K3DK0PUOJSGI. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-egh-discharge",
+        "author_domain_verified": true,
+        "author_operator": "Example General Hospital",
+        "author_operator_domain": "examplegeneral.test",
+        "author_operator_kind": "health_system",
+        "author_principal_id": "org-example-general",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:28:00Z",
+        "entered_time": "2026-10-16T09:28:00Z",
+        "entry_id": 29,
+        "item_kind": "sleep",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:28:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-29",
+          "trust": "untrusted_source_text",
+          "value": "An overnight observation was filed with log reference LQZSXIETT83O. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-egh-discharge",
+        "author_domain_verified": true,
+        "author_operator": "Example General Hospital",
+        "author_operator_domain": "examplegeneral.test",
+        "author_operator_kind": "health_system",
+        "author_principal_id": "org-example-general",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:29:00Z",
+        "entered_time": "2026-10-16T09:29:00Z",
+        "entry_id": 30,
+        "item_kind": "routine",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:29:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-30",
+          "trust": "untrusted_source_text",
+          "value": "A morning activity was logged with session reference EE03K9KZK1SI. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-egh-discharge",
+        "author_domain_verified": true,
+        "author_operator": "Example General Hospital",
+        "author_operator_domain": "examplegeneral.test",
+        "author_operator_kind": "health_system",
+        "author_principal_id": "org-example-general",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:30:00Z",
+        "entered_time": "2026-10-16T09:30:00Z",
+        "entry_id": 31,
+        "item_kind": "discharge_summary",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:30:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-31",
+          "trust": "untrusted_source_text",
+          "value": "A document transfer was logged with packet reference 6EM252Y11YIL. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      },
+      {
+        "author_agent_id": "agent-egh-discharge",
+        "author_domain_verified": true,
+        "author_operator": "Example General Hospital",
+        "author_operator_domain": "examplegeneral.test",
+        "author_operator_kind": "health_system",
+        "author_principal_id": "org-example-general",
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:31:00Z",
+        "entered_time": "2026-10-16T09:31:00Z",
+        "entry_id": 32,
+        "item_kind": "note",
+        "media_ids": [],
+        "recorded_time": "2026-10-16T09:31:00Z",
+        "scheduled_for": null,
+        "untrusted": {
+          "informant_key": null,
+          "informant_role": null,
+          "quote": null,
+          "source_ref": "synthetic:world-94202:observation-32",
+          "trust": "untrusted_source_text",
+          "value": "A supplies delivery was logged with batch reference FUFKUNNM99AV. No return-trip booking reference is stated."
+        },
+        "withdraws": null
+      }
+    ],
+    "not_available": [],
+    "person_id": "person-a",
+    "withheld_failed_check": []
+  },
+  "local_read_seconds": 0.0033578750444576144,
+  "observations": [
+    {
+      "actor": "facility-notes",
+      "item_kind": "mobility",
+      "source_ref": "synthetic:world-94202:observation-1",
+      "value": "A courtyard walk was logged with route reference NJF2I4W0BCBK. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "facility-notes",
+      "item_kind": "eating",
+      "source_ref": "synthetic:world-94202:observation-2",
+      "value": "A lunch delivery was logged with supplier reference TVGW6V1WBDUD. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "facility-notes",
+      "item_kind": "medications",
+      "source_ref": "synthetic:world-94202:observation-3",
+      "value": "An inventory document was filed with tracking reference M3IS8SDSRNX2. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "facility-notes",
+      "item_kind": "contacts",
+      "source_ref": "synthetic:world-94202:observation-4",
+      "value": "The service desk supplied its contact reference DWJYO82NKHPW. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "facility-notes",
+      "item_kind": "sleep",
+      "source_ref": "synthetic:world-94202:observation-5",
+      "value": "An overnight observation was filed with log reference KYPMGS45C7YC. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "facility-notes",
+      "item_kind": "routine",
+      "source_ref": "synthetic:world-94202:observation-6",
+      "value": "A morning activity was logged with session reference P8CR1IH9IJJS. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "facility-notes",
+      "item_kind": "discharge_summary",
+      "source_ref": "synthetic:world-94202:observation-7",
+      "value": "A document transfer was logged with packet reference 81K4L3N85QNQ. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "facility-notes",
+      "item_kind": "note",
+      "source_ref": "synthetic:world-94202:observation-8",
+      "value": "A supplies delivery was logged with batch reference 67LQREZ2EDAJ. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "hospital-discharge",
+      "item_kind": "mobility",
+      "source_ref": "synthetic:world-94202:observation-9",
+      "value": "A courtyard walk was logged with route reference 8IWLXW7JM4C7. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "hospital-discharge",
+      "item_kind": "eating",
+      "source_ref": "synthetic:world-94202:observation-10",
+      "value": "A lunch delivery was logged with supplier reference LNFVOKLSVKPZ. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "hospital-discharge",
+      "item_kind": "medications",
+      "source_ref": "synthetic:world-94202:observation-11",
+      "value": "An inventory document was filed with tracking reference XNCVT234X7Q3. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "hospital-discharge",
+      "item_kind": "contacts",
+      "source_ref": "synthetic:world-94202:observation-12",
+      "value": "The service desk supplied its contact reference XNJH5IML8SQQ. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "hospital-discharge",
+      "item_kind": "sleep",
+      "source_ref": "synthetic:world-94202:observation-13",
+      "value": "An overnight observation was filed with log reference UCWP8OB06BQ2. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "hospital-discharge",
+      "item_kind": "routine",
+      "source_ref": "synthetic:world-94202:observation-14",
+      "value": "A morning activity was logged with session reference 251NTZ1STFCU. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "hospital-discharge",
+      "item_kind": "discharge_summary",
+      "source_ref": "synthetic:world-94202:observation-15",
+      "value": "A document transfer was logged with packet reference 7F3QAVM144R4. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "hospital-discharge",
+      "item_kind": "note",
+      "source_ref": "synthetic:world-94202:observation-16",
+      "value": "A supplies delivery was logged with batch reference XM7NCRCFJM7T. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "hospital-discharge",
+      "item_kind": "appointments",
+      "source_ref": "synthetic:world-94202:observation-17",
+      "value": "The current booking reference for the return trip to Example Gardens is FXR0YWFLJS7Z."
+    },
+    {
+      "actor": "facility-notes",
+      "item_kind": "eating",
+      "source_ref": "synthetic:world-94202:observation-18",
+      "value": "A lunch delivery was logged with supplier reference OE6V7SIU3JBW. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "facility-notes",
+      "item_kind": "medications",
+      "source_ref": "synthetic:world-94202:observation-19",
+      "value": "An inventory document was filed with tracking reference EDUN422NJAPO. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "facility-notes",
+      "item_kind": "contacts",
+      "source_ref": "synthetic:world-94202:observation-20",
+      "value": "The service desk supplied its contact reference PHCN91ZV0BNA. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "facility-notes",
+      "item_kind": "sleep",
+      "source_ref": "synthetic:world-94202:observation-21",
+      "value": "An overnight observation was filed with log reference 7OFXOMSKNEZ9. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "facility-notes",
+      "item_kind": "routine",
+      "source_ref": "synthetic:world-94202:observation-22",
+      "value": "A morning activity was logged with session reference W8IVN41VUPN3. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "facility-notes",
+      "item_kind": "discharge_summary",
+      "source_ref": "synthetic:world-94202:observation-23",
+      "value": "A document transfer was logged with packet reference 9HR85PQ3PCLM. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "facility-notes",
+      "item_kind": "note",
+      "source_ref": "synthetic:world-94202:observation-24",
+      "value": "A supplies delivery was logged with batch reference 7HDQDLABKDNE. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "hospital-discharge",
+      "item_kind": "mobility",
+      "source_ref": "synthetic:world-94202:observation-25",
+      "value": "A courtyard walk was logged with route reference GR704C36RP3X. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "hospital-discharge",
+      "item_kind": "eating",
+      "source_ref": "synthetic:world-94202:observation-26",
+      "value": "A lunch delivery was logged with supplier reference ABU6H4BRH68W. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "hospital-discharge",
+      "item_kind": "medications",
+      "source_ref": "synthetic:world-94202:observation-27",
+      "value": "An inventory document was filed with tracking reference V0DXWQYR3X1B. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "hospital-discharge",
+      "item_kind": "contacts",
+      "source_ref": "synthetic:world-94202:observation-28",
+      "value": "The service desk supplied its contact reference K3DK0PUOJSGI. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "hospital-discharge",
+      "item_kind": "sleep",
+      "source_ref": "synthetic:world-94202:observation-29",
+      "value": "An overnight observation was filed with log reference LQZSXIETT83O. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "hospital-discharge",
+      "item_kind": "routine",
+      "source_ref": "synthetic:world-94202:observation-30",
+      "value": "A morning activity was logged with session reference EE03K9KZK1SI. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "hospital-discharge",
+      "item_kind": "discharge_summary",
+      "source_ref": "synthetic:world-94202:observation-31",
+      "value": "A document transfer was logged with packet reference 6EM252Y11YIL. No return-trip booking reference is stated."
+    },
+    {
+      "actor": "hospital-discharge",
+      "item_kind": "note",
+      "source_ref": "synthetic:world-94202:observation-32",
+      "value": "A supplies delivery was logged with batch reference FUFKUNNM99AV. No return-trip booking reference is stated."
+    }
+  ],
+  "oracle": {
+    "answers": [
+      {
+        "entry_id": 17,
+        "value": "FXR0YWFLJS7Z"
+      }
+    ],
+    "status": "answer"
+  },
+  "question": "What is the current booking reference for the return trip to Example Gardens? Report every contributor's current account. If current accounts disagree, report the disagreement and cite both; do not choose a winner. If no account supplies this reference, say unknown. Cite the entry ID for each reference.",
+  "service_calls": [
+    {
+      "actor": "hospital-discharge",
+      "arguments": {
+        "actions": [
+          "write"
+        ],
+        "item_kinds": [
+          "mobility",
+          "eating",
+          "medications",
+          "contacts",
+          "sleep",
+          "appointments",
+          "routine",
+          "discharge_summary",
+          "note"
+        ],
+        "person_id": "person-a",
+        "purposes": [
+          "care_coordination"
+        ],
+        "reason": "Bounded synthetic current-fact benchmark.",
+        "window_days": 1
+      },
+      "elapsed_seconds": 0.0021235829917714,
+      "response": {
+        "ok": true,
+        "result": {
+          "expires_at": "2026-10-19T09:00:00Z",
+          "request_id": 1,
+          "state": "pending"
+        }
+      },
+      "tool": "request_access"
+    },
+    {
+      "actor": "consent-daughter",
+      "arguments": {
+        "decision": "approve",
+        "item_kinds": [
+          "mobility",
+          "eating",
+          "medications",
+          "contacts",
+          "sleep",
+          "appointments",
+          "routine",
+          "discharge_summary",
+          "note"
+        ],
+        "request_id": 1,
+        "window_days": 1
+      },
+      "elapsed_seconds": 0.0016509999986737967,
+      "response": {
+        "ok": true,
+        "result": {
+          "decision": "approved",
+          "grant": {
+            "actions": [
+              "write"
+            ],
+            "approved_at": "2026-10-16T09:00:00Z",
+            "approved_by": "user-daughter-a",
+            "expires_at": "2026-10-17T09:00:00Z",
+            "from_request_id": 1,
+            "grant_id": 1,
+            "grantee_agent_id": "agent-egh-discharge",
+            "grantee_principal_id": "org-example-general",
+            "item_kinds": [
+              "mobility",
+              "eating",
+              "medications",
+              "contacts",
+              "sleep",
+              "appointments",
+              "routine",
+              "discharge_summary",
+              "note"
+            ],
+            "not_before": "2026-10-16T09:00:00Z",
+            "person_id": "person-a",
+            "purposes": [
+              "care_coordination"
+            ]
+          },
+          "request_id": 1
+        }
+      },
+      "tool": "decide_request"
+    },
+    {
+      "actor": "facility-notes",
+      "arguments": {
+        "actions": [
+          "write"
+        ],
+        "item_kinds": [
+          "mobility",
+          "eating",
+          "medications",
+          "contacts",
+          "sleep",
+          "appointments",
+          "routine",
+          "discharge_summary",
+          "note"
+        ],
+        "person_id": "person-a",
+        "purposes": [
+          "care_coordination"
+        ],
+        "reason": "Bounded synthetic current-fact benchmark.",
+        "window_days": 1
+      },
+      "elapsed_seconds": 0.0013790419325232506,
+      "response": {
+        "ok": true,
+        "result": {
+          "expires_at": "2026-10-19T09:00:00Z",
+          "request_id": 2,
+          "state": "pending"
+        }
+      },
+      "tool": "request_access"
+    },
+    {
+      "actor": "consent-daughter",
+      "arguments": {
+        "decision": "approve",
+        "item_kinds": [
+          "mobility",
+          "eating",
+          "medications",
+          "contacts",
+          "sleep",
+          "appointments",
+          "routine",
+          "discharge_summary",
+          "note"
+        ],
+        "request_id": 2,
+        "window_days": 1
+      },
+      "elapsed_seconds": 0.001420042011886835,
+      "response": {
+        "ok": true,
+        "result": {
+          "decision": "approved",
+          "grant": {
+            "actions": [
+              "write"
+            ],
+            "approved_at": "2026-10-16T09:00:00Z",
+            "approved_by": "user-daughter-a",
+            "expires_at": "2026-10-17T09:00:00Z",
+            "from_request_id": 2,
+            "grant_id": 2,
+            "grantee_agent_id": "agent-gardens-notes",
+            "grantee_principal_id": "org-example-gardens",
+            "item_kinds": [
+              "mobility",
+              "eating",
+              "medications",
+              "contacts",
+              "sleep",
+              "appointments",
+              "routine",
+              "discharge_summary",
+              "note"
+            ],
+            "not_before": "2026-10-16T09:00:00Z",
+            "person_id": "person-a",
+            "purposes": [
+              "care_coordination"
+            ]
+          },
+          "request_id": 2
+        }
+      },
+      "tool": "decide_request"
+    },
+    {
+      "actor": "facility-shift",
+      "arguments": {
+        "actions": [
+          "read"
+        ],
+        "item_kinds": [
+          "mobility",
+          "eating",
+          "medications",
+          "contacts",
+          "sleep",
+          "appointments",
+          "routine",
+          "discharge_summary",
+          "note"
+        ],
+        "person_id": "person-a",
+        "purposes": [
+          "care_coordination"
+        ],
+        "reason": "Bounded synthetic current-fact benchmark.",
+        "window_days": 1
+      },
+      "elapsed_seconds": 0.0015103749465197325,
+      "response": {
+        "ok": true,
+        "result": {
+          "expires_at": "2026-10-19T09:00:00Z",
+          "request_id": 3,
+          "state": "pending"
+        }
+      },
+      "tool": "request_access"
+    },
+    {
+      "actor": "consent-daughter",
+      "arguments": {
+        "decision": "approve",
+        "item_kinds": [
+          "mobility",
+          "eating",
+          "medications",
+          "contacts",
+          "sleep",
+          "appointments",
+          "routine",
+          "discharge_summary",
+          "note"
+        ],
+        "request_id": 3,
+        "window_days": 1
+      },
+      "elapsed_seconds": 0.0016810829984024167,
+      "response": {
+        "ok": true,
+        "result": {
+          "decision": "approved",
+          "grant": {
+            "actions": [
+              "read"
+            ],
+            "approved_at": "2026-10-16T09:00:00Z",
+            "approved_by": "user-daughter-a",
+            "expires_at": "2026-10-17T09:00:00Z",
+            "from_request_id": 3,
+            "grant_id": 3,
+            "grantee_agent_id": "agent-gardens-shift",
+            "grantee_principal_id": "org-example-gardens",
+            "item_kinds": [
+              "mobility",
+              "eating",
+              "medications",
+              "contacts",
+              "sleep",
+              "appointments",
+              "routine",
+              "discharge_summary",
+              "note"
+            ],
+            "not_before": "2026-10-16T09:00:00Z",
+            "person_id": "person-a",
+            "purposes": [
+              "care_coordination"
+            ]
+          },
+          "request_id": 3
+        }
+      },
+      "tool": "decide_request"
+    },
+    {
+      "actor": "facility-notes",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:00:00Z",
+        "item_kind": "mobility",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:00:00Z",
+        "source_ref": "synthetic:world-94202:observation-1",
+        "value": "A courtyard walk was logged with route reference NJF2I4W0BCBK. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0015572080155834556,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 1
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "facility-notes",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:01:00Z",
+        "item_kind": "eating",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:01:00Z",
+        "source_ref": "synthetic:world-94202:observation-2",
+        "value": "A lunch delivery was logged with supplier reference TVGW6V1WBDUD. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.001484791049733758,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 2
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "facility-notes",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:02:00Z",
+        "item_kind": "medications",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:02:00Z",
+        "source_ref": "synthetic:world-94202:observation-3",
+        "value": "An inventory document was filed with tracking reference M3IS8SDSRNX2. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0013959590578451753,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 3
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "facility-notes",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:03:00Z",
+        "item_kind": "contacts",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:03:00Z",
+        "source_ref": "synthetic:world-94202:observation-4",
+        "value": "The service desk supplied its contact reference DWJYO82NKHPW. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0013734579551964998,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 4
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "facility-notes",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:04:00Z",
+        "item_kind": "sleep",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:04:00Z",
+        "source_ref": "synthetic:world-94202:observation-5",
+        "value": "An overnight observation was filed with log reference KYPMGS45C7YC. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.001357667031697929,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 5
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "facility-notes",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:05:00Z",
+        "item_kind": "routine",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:05:00Z",
+        "source_ref": "synthetic:world-94202:observation-6",
+        "value": "A morning activity was logged with session reference P8CR1IH9IJJS. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0014242090983316302,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 6
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "facility-notes",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:06:00Z",
+        "item_kind": "discharge_summary",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:06:00Z",
+        "source_ref": "synthetic:world-94202:observation-7",
+        "value": "A document transfer was logged with packet reference 81K4L3N85QNQ. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.001353333005681634,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 7
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "facility-notes",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:07:00Z",
+        "item_kind": "note",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:07:00Z",
+        "source_ref": "synthetic:world-94202:observation-8",
+        "value": "A supplies delivery was logged with batch reference 67LQREZ2EDAJ. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.001381249981932342,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 8
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "hospital-discharge",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:08:00Z",
+        "item_kind": "mobility",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:08:00Z",
+        "source_ref": "synthetic:world-94202:observation-9",
+        "value": "A courtyard walk was logged with route reference 8IWLXW7JM4C7. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0014582090079784393,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 9
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "hospital-discharge",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:09:00Z",
+        "item_kind": "eating",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:09:00Z",
+        "source_ref": "synthetic:world-94202:observation-10",
+        "value": "A lunch delivery was logged with supplier reference LNFVOKLSVKPZ. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0014488750603049994,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 10
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "hospital-discharge",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:10:00Z",
+        "item_kind": "medications",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:10:00Z",
+        "source_ref": "synthetic:world-94202:observation-11",
+        "value": "An inventory document was filed with tracking reference XNCVT234X7Q3. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0014436249621212482,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 11
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "hospital-discharge",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:11:00Z",
+        "item_kind": "contacts",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:11:00Z",
+        "source_ref": "synthetic:world-94202:observation-12",
+        "value": "The service desk supplied its contact reference XNJH5IML8SQQ. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.001397959073074162,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 12
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "hospital-discharge",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:12:00Z",
+        "item_kind": "sleep",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:12:00Z",
+        "source_ref": "synthetic:world-94202:observation-13",
+        "value": "An overnight observation was filed with log reference UCWP8OB06BQ2. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0014226250350475311,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 13
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "hospital-discharge",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:13:00Z",
+        "item_kind": "routine",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:13:00Z",
+        "source_ref": "synthetic:world-94202:observation-14",
+        "value": "A morning activity was logged with session reference 251NTZ1STFCU. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0014255000278353691,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 14
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "hospital-discharge",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:14:00Z",
+        "item_kind": "discharge_summary",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:14:00Z",
+        "source_ref": "synthetic:world-94202:observation-15",
+        "value": "A document transfer was logged with packet reference 7F3QAVM144R4. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0014246670762076974,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 15
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "hospital-discharge",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:15:00Z",
+        "item_kind": "note",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:15:00Z",
+        "source_ref": "synthetic:world-94202:observation-16",
+        "value": "A supplies delivery was logged with batch reference XM7NCRCFJM7T. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0014202500460669398,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 16
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "hospital-discharge",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:16:00Z",
+        "item_kind": "appointments",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:16:00Z",
+        "source_ref": "synthetic:world-94202:observation-17",
+        "value": "The current booking reference for the return trip to Example Gardens is FXR0YWFLJS7Z."
+      },
+      "elapsed_seconds": 0.0014765419764444232,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 17
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "facility-notes",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:17:00Z",
+        "item_kind": "eating",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:17:00Z",
+        "source_ref": "synthetic:world-94202:observation-18",
+        "value": "A lunch delivery was logged with supplier reference OE6V7SIU3JBW. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0014512089546769857,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 18
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "facility-notes",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:18:00Z",
+        "item_kind": "medications",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:18:00Z",
+        "source_ref": "synthetic:world-94202:observation-19",
+        "value": "An inventory document was filed with tracking reference EDUN422NJAPO. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.001504999934695661,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 19
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "facility-notes",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:19:00Z",
+        "item_kind": "contacts",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:19:00Z",
+        "source_ref": "synthetic:world-94202:observation-20",
+        "value": "The service desk supplied its contact reference PHCN91ZV0BNA. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.001458749989978969,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 20
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "facility-notes",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:20:00Z",
+        "item_kind": "sleep",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:20:00Z",
+        "source_ref": "synthetic:world-94202:observation-21",
+        "value": "An overnight observation was filed with log reference 7OFXOMSKNEZ9. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.001463750028051436,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 21
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "facility-notes",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:21:00Z",
+        "item_kind": "routine",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:21:00Z",
+        "source_ref": "synthetic:world-94202:observation-22",
+        "value": "A morning activity was logged with session reference W8IVN41VUPN3. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.001510583097115159,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 22
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "facility-notes",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:22:00Z",
+        "item_kind": "discharge_summary",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:22:00Z",
+        "source_ref": "synthetic:world-94202:observation-23",
+        "value": "A document transfer was logged with packet reference 9HR85PQ3PCLM. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0016488749533891678,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 23
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "facility-notes",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:23:00Z",
+        "item_kind": "note",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:23:00Z",
+        "source_ref": "synthetic:world-94202:observation-24",
+        "value": "A supplies delivery was logged with batch reference 7HDQDLABKDNE. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0015302920946851373,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 24
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "hospital-discharge",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:24:00Z",
+        "item_kind": "mobility",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:24:00Z",
+        "source_ref": "synthetic:world-94202:observation-25",
+        "value": "A courtyard walk was logged with route reference GR704C36RP3X. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0015135419089347124,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 25
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "hospital-discharge",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:25:00Z",
+        "item_kind": "eating",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:25:00Z",
+        "source_ref": "synthetic:world-94202:observation-26",
+        "value": "A lunch delivery was logged with supplier reference ABU6H4BRH68W. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0015001249266788363,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 26
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "hospital-discharge",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:26:00Z",
+        "item_kind": "medications",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:26:00Z",
+        "source_ref": "synthetic:world-94202:observation-27",
+        "value": "An inventory document was filed with tracking reference V0DXWQYR3X1B. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0017909170128405094,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 27
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "hospital-discharge",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:27:00Z",
+        "item_kind": "contacts",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:27:00Z",
+        "source_ref": "synthetic:world-94202:observation-28",
+        "value": "The service desk supplied its contact reference K3DK0PUOJSGI. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0015012500807642937,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 28
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "hospital-discharge",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:28:00Z",
+        "item_kind": "sleep",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:28:00Z",
+        "source_ref": "synthetic:world-94202:observation-29",
+        "value": "An overnight observation was filed with log reference LQZSXIETT83O. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0015732080210000277,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 29
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "hospital-discharge",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:29:00Z",
+        "item_kind": "routine",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:29:00Z",
+        "source_ref": "synthetic:world-94202:observation-30",
+        "value": "A morning activity was logged with session reference EE03K9KZK1SI. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0015326670836657286,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 30
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "hospital-discharge",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:30:00Z",
+        "item_kind": "discharge_summary",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:30:00Z",
+        "source_ref": "synthetic:world-94202:observation-31",
+        "value": "A document transfer was logged with packet reference 6EM252Y11YIL. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.001650167047046125,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 31
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "hospital-discharge",
+      "arguments": {
+        "basis": "observed",
+        "effective_time": "2026-10-16T09:31:00Z",
+        "item_kind": "note",
+        "person_id": "person-a",
+        "purpose": "care_coordination",
+        "recorded_time": "2026-10-16T09:31:00Z",
+        "source_ref": "synthetic:world-94202:observation-32",
+        "value": "A supplies delivery was logged with batch reference FUFKUNNM99AV. No return-trip booking reference is stated."
+      },
+      "elapsed_seconds": 0.0015903329476714134,
+      "response": {
+        "ok": true,
+        "result": {
+          "entry_id": 32
+        }
+      },
+      "tool": "record_observation"
+    },
+    {
+      "actor": "facility-shift",
+      "arguments": {
+        "item_kinds": [
+          "mobility",
+          "eating",
+          "medications",
+          "contacts",
+          "sleep",
+          "appointments",
+          "routine",
+          "discharge_summary",
+          "note"
+        ],
+        "person_id": "person-a",
+        "purpose": "care_coordination"
+      },
+      "elapsed_seconds": 0.0033578750444576144,
+      "response": {
+        "ok": true,
+        "result": {
+          "as_of": "2026-10-16T09:32:00Z",
+          "claims": [
+            {
+              "entries": [
+                {
+                  "author_agent_id": "agent-gardens-notes",
+                  "author_domain_verified": true,
+                  "author_operator": "Example Gardens Assisted Living",
+                  "author_operator_domain": "examplegardens.test",
+                  "author_operator_kind": "facility",
+                  "author_principal_id": "org-example-gardens",
+                  "basis": "observed",
+                  "effective_time": "2026-10-16T09:00:00Z",
+                  "entered_time": "2026-10-16T09:00:00Z",
+                  "entry_id": 1,
+                  "item_kind": "mobility",
+                  "media_ids": [],
+                  "recorded_time": "2026-10-16T09:00:00Z",
+                  "scheduled_for": null,
+                  "untrusted": {
+                    "informant_key": null,
+                    "informant_role": null,
+                    "quote": null,
+                    "source_ref": "synthetic:world-94202:observation-1",
+                    "trust": "untrusted_source_text",
+                    "value": "A courtyard walk was logged with route reference NJF2I4W0BCBK. No return-trip booking reference is stated."
+                  }
+                },
+                {
+                  "author_agent_id": "agent-egh-discharge",
+                  "author_domain_verified": true,
+                  "author_operator": "Example General Hospital",
+                  "author_operator_domain": "examplegeneral.test",
+                  "author_operator_kind": "health_system",
+                  "author_principal_id": "org-example-general",
+                  "basis": "observed",
+                  "effective_time": "2026-10-16T09:24:00Z",
+                  "entered_time": "2026-10-16T09:24:00Z",
+                  "entry_id": 25,
+                  "item_kind": "mobility",
+                  "media_ids": [],
+                  "recorded_time": "2026-10-16T09:24:00Z",
+                  "scheduled_for": null,
+                  "untrusted": {
+                    "informant_key": null,
+                    "informant_role": null,
+                    "quote": null,
+                    "source_ref": "synthetic:world-94202:observation-25",
+                    "trust": "untrusted_source_text",
+                    "value": "A courtyard walk was logged with route reference GR704C36RP3X. No return-trip booking reference is stated."
+                  }
+                }
+              ],
+              "item_kind": "mobility",
+              "status": "differing_accounts"
+            },
+            {
+              "entries": [
+                {
+                  "author_agent_id": "agent-gardens-notes",
+                  "author_domain_verified": true,
+                  "author_operator": "Example Gardens Assisted Living",
+                  "author_operator_domain": "examplegardens.test",
+                  "author_operator_kind": "facility",
+                  "author_principal_id": "org-example-gardens",
+                  "basis": "observed",
+                  "effective_time": "2026-10-16T09:17:00Z",
+                  "entered_time": "2026-10-16T09:17:00Z",
+                  "entry_id": 18,
+                  "item_kind": "eating",
+                  "media_ids": [],
+                  "recorded_time": "2026-10-16T09:17:00Z",
+                  "scheduled_for": null,
+                  "untrusted": {
+                    "informant_key": null,
+                    "informant_role": null,
+                    "quote": null,
+                    "source_ref": "synthetic:world-94202:observation-18",
+                    "trust": "untrusted_source_text",
+                    "value": "A lunch delivery was logged with supplier reference OE6V7SIU3JBW. No return-trip booking reference is stated."
+                  }
+                },
+                {
+                  "author_agent_id": "agent-egh-discharge",
+                  "author_domain_verified": true,
+                  "author_operator": "Example General Hospital",
+                  "author_operator_domain": "examplegeneral.test",
+                  "author_operator_kind": "health_system",
+                  "author_principal_id": "org-example-general",
+                  "basis": "observed",
+                  "effective_time": "2026-10-16T09:25:00Z",
+                  "entered_time": "2026-10-16T09:25:00Z",
+                  "entry_id": 26,
+                  "item_kind": "eating",
+                  "media_ids": [],
+                  "recorded_time": "2026-10-16T09:25:00Z",
+                  "scheduled_for": null,
+                  "untrusted": {
+                    "informant_key": null,
+                    "informant_role": null,
+                    "quote": null,
+                    "source_ref": "synthetic:world-94202:observation-26",
+                    "trust": "untrusted_source_text",
+                    "value": "A lunch delivery was logged with supplier reference ABU6H4BRH68W. No return-trip booking reference is stated."
+                  }
+                }
+              ],
+              "item_kind": "eating",
+              "status": "differing_accounts"
+            },
+            {
+              "entries": [
+                {
+                  "author_agent_id": "agent-gardens-notes",
+                  "author_domain_verified": true,
+                  "author_operator": "Example Gardens Assisted Living",
+                  "author_operator_domain": "examplegardens.test",
+                  "author_operator_kind": "facility",
+                  "author_principal_id": "org-example-gardens",
+                  "basis": "observed",
+                  "effective_time": "2026-10-16T09:18:00Z",
+                  "entered_time": "2026-10-16T09:18:00Z",
+                  "entry_id": 19,
+                  "item_kind": "medications",
+                  "media_ids": [],
+                  "recorded_time": "2026-10-16T09:18:00Z",
+                  "scheduled_for": null,
+                  "untrusted": {
+                    "informant_key": null,
+                    "informant_role": null,
+                    "quote": null,
+                    "source_ref": "synthetic:world-94202:observation-19",
+                    "trust": "untrusted_source_text",
+                    "value": "An inventory document was filed with tracking reference EDUN422NJAPO. No return-trip booking reference is stated."
+                  }
+                },
+                {
+                  "author_agent_id": "agent-egh-discharge",
+                  "author_domain_verified": true,
+                  "author_operator": "Example General Hospital",
+                  "author_operator_domain": "examplegeneral.test",
+                  "author_operator_kind": "health_system",
+                  "author_principal_id": "org-example-general",
+                  "basis": "observed",
+                  "effective_time": "2026-10-16T09:26:00Z",
+                  "entered_time": "2026-10-16T09:26:00Z",
+                  "entry_id": 27,
+                  "item_kind": "medications",
+                  "media_ids": [],
+                  "recorded_time": "2026-10-16T09:26:00Z",
+                  "scheduled_for": null,
+                  "untrusted": {
+                    "informant_key": null,
+                    "informant_role": null,
+                    "quote": null,
+                    "source_ref": "synthetic:world-94202:observation-27",
+                    "trust": "untrusted_source_text",
+                    "value": "An inventory document was filed with tracking reference V0DXWQYR3X1B. No return-trip booking reference is stated."
+                  }
+                }
+              ],
+              "item_kind": "medications",
+              "status": "differing_accounts"
+            },
+            {
+              "entries": [
+                {
+                  "author_agent_id": "agent-gardens-notes",
+                  "author_domain_verified": true,
+                  "author_operator": "Example Gardens Assisted Living",
+                  "author_operator_domain": "examplegardens.test",
+                  "author_operator_kind": "facility",
+                  "author_principal_id": "org-example-gardens",
+                  "basis": "observed",
+                  "effective_time": "2026-10-16T09:19:00Z",
+                  "entered_time": "2026-10-16T09:19:00Z",
+                  "entry_id": 20,
+                  "item_kind": "contacts",
+                  "media_ids": [],
+                  "recorded_time": "2026-10-16T09:19:00Z",
+                  "scheduled_for": null,
+                  "untrusted": {
+                    "informant_key": null,
+                    "informant_role": null,
+                    "quote": null,
+                    "source_ref": "synthetic:world-94202:observation-20",
+                    "trust": "untrusted_source_text",
+                    "value": "The service desk supplied its contact reference PHCN91ZV0BNA. No return-trip booking reference is stated."
+                  }
+                },
+                {
+                  "author_agent_id": "agent-egh-discharge",
+                  "author_domain_verified": true,
+                  "author_operator": "Example General Hospital",
+                  "author_operator_domain": "examplegeneral.test",
+                  "author_operator_kind": "health_system",
+                  "author_principal_id": "org-example-general",
+                  "basis": "observed",
+                  "effective_time": "2026-10-16T09:27:00Z",
+                  "entered_time": "2026-10-16T09:27:00Z",
+                  "entry_id": 28,
+                  "item_kind": "contacts",
+                  "media_ids": [],
+                  "recorded_time": "2026-10-16T09:27:00Z",
+                  "scheduled_for": null,
+                  "untrusted": {
+                    "informant_key": null,
+                    "informant_role": null,
+                    "quote": null,
+                    "source_ref": "synthetic:world-94202:observation-28",
+                    "trust": "untrusted_source_text",
+                    "value": "The service desk supplied its contact reference K3DK0PUOJSGI. No return-trip booking reference is stated."
+                  }
+                }
+              ],
+              "item_kind": "contacts",
+              "status": "differing_accounts"
+            },
+            {
+              "entries": [
+                {
+                  "author_agent_id": "agent-gardens-notes",
+                  "author_domain_verified": true,
+                  "author_operator": "Example Gardens Assisted Living",
+                  "author_operator_domain": "examplegardens.test",
+                  "author_operator_kind": "facility",
+                  "author_principal_id": "org-example-gardens",
+                  "basis": "observed",
+                  "effective_time": "2026-10-16T09:20:00Z",
+                  "entered_time": "2026-10-16T09:20:00Z",
+                  "entry_id": 21,
+                  "item_kind": "sleep",
+                  "media_ids": [],
+                  "recorded_time": "2026-10-16T09:20:00Z",
+                  "scheduled_for": null,
+                  "untrusted": {
+                    "informant_key": null,
+                    "informant_role": null,
+                    "quote": null,
+                    "source_ref": "synthetic:world-94202:observation-21",
+                    "trust": "untrusted_source_text",
+                    "value": "An overnight observation was filed with log reference 7OFXOMSKNEZ9. No return-trip booking reference is stated."
+                  }
+                },
+                {
+                  "author_agent_id": "agent-egh-discharge",
+                  "author_domain_verified": true,
+                  "author_operator": "Example General Hospital",
+                  "author_operator_domain": "examplegeneral.test",
+                  "author_operator_kind": "health_system",
+                  "author_principal_id": "org-example-general",
+                  "basis": "observed",
+                  "effective_time": "2026-10-16T09:28:00Z",
+                  "entered_time": "2026-10-16T09:28:00Z",
+                  "entry_id": 29,
+                  "item_kind": "sleep",
+                  "media_ids": [],
+                  "recorded_time": "2026-10-16T09:28:00Z",
+                  "scheduled_for": null,
+                  "untrusted": {
+                    "informant_key": null,
+                    "informant_role": null,
+                    "quote": null,
+                    "source_ref": "synthetic:world-94202:observation-29",
+                    "trust": "untrusted_source_text",
+                    "value": "An overnight observation was filed with log reference LQZSXIETT83O. No return-trip booking reference is stated."
+                  }
+                }
+              ],
+              "item_kind": "sleep",
+              "status": "differing_accounts"
+            },
+            {
+              "entries": [
+                {
+                  "author_agent_id": "agent-egh-discharge",
+                  "author_domain_verified": true,
+                  "author_operator": "Example General Hospital",
+                  "author_operator_domain": "examplegeneral.test",
+                  "author_operator_kind": "health_system",
+                  "author_principal_id": "org-example-general",
+                  "basis": "observed",
+                  "effective_time": "2026-10-16T09:16:00Z",
+                  "entered_time": "2026-10-16T09:16:00Z",
+                  "entry_id": 17,
+                  "item_kind": "appointments",
+                  "media_ids": [],
+                  "recorded_time": "2026-10-16T09:16:00Z",
+                  "scheduled_for": null,
+                  "untrusted": {
+                    "informant_key": null,
+                    "informant_role": null,
+                    "quote": null,
+                    "source_ref": "synthetic:world-94202:observation-17",
+                    "trust": "untrusted_source_text",
+                    "value": "The current booking reference for the return trip to Example Gardens is FXR0YWFLJS7Z."
+                  }
+                }
+              ],
+              "item_kind": "appointments",
+              "status": "single_account"
+            },
+            {
+              "entries": [
+                {
+                  "author_agent_id": "agent-gardens-notes",
+                  "author_domain_verified": true,
+                  "author_operator": "Example Gardens Assisted Living",
+                  "author_operator_domain": "examplegardens.test",
+                  "author_operator_kind": "facility",
+                  "author_principal_id": "org-example-gardens",
+                  "basis": "observed",
+                  "effective_time": "2026-10-16T09:21:00Z",
+                  "entered_time": "2026-10-16T09:21:00Z",
+                  "entry_id": 22,
+                  "item_kind": "routine",
+                  "media_ids": [],
+                  "recorded_time": "2026-10-16T09:21:00Z",
+                  "scheduled_for": null,
+                  "untrusted": {
+                    "informant_key": null,
+                    "informant_role": null,
+                    "quote": null,
+                    "source_ref": "synthetic:world-94202:observation-22",
+                    "trust": "untrusted_source_text",
+                    "value": "A morning activity was logged with session reference W8IVN41VUPN3. No return-trip booking reference is stated."
+                  }
+                },
+                {
+                  "author_agent_id": "agent-egh-discharge",
+                  "author_domain_verified": true,
+                  "author_operator": "Example General Hospital",
+                  "author_operator_domain": "examplegeneral.test",
+                  "author_operator_kind": "health_system",
+                  "author_principal_id": "org-example-general",
+                  "basis": "observed",
+                  "effective_time": "2026-10-16T09:29:00Z",
+                  "entered_time": "2026-10-16T09:29:00Z",
+                  "entry_id": 30,
+                  "item_kind": "routine",
+                  "media_ids": [],
+                  "recorded_time": "2026-10-16T09:29:00Z",
+                  "scheduled_for": null,
+                  "untrusted": {
+                    "informant_key": null,
+                    "informant_role": null,
+                    "quote": null,
+                    "source_ref": "synthetic:world-94202:observation-30",
+                    "trust": "untrusted_source_text",
+                    "value": "A morning activity was logged with session reference EE03K9KZK1SI. No return-trip booking reference is stated."
+                  }
+                }
+              ],
+              "item_kind": "routine",
+              "status": "differing_accounts"
+            },
+            {
+              "entries": [
+                {
+                  "author_agent_id": "agent-gardens-notes",
+                  "author_domain_verified": true,
+                  "author_operator": "Example Gardens Assisted Living",
+                  "author_operator_domain": "examplegardens.test",
+                  "author_operator_kind": "facility",
+                  "author_principal_id": "org-example-gardens",
+                  "basis": "observed",
+                  "effective_time": "2026-10-16T09:22:00Z",
+                  "entered_time": "2026-10-16T09:22:00Z",
+                  "entry_id": 23,
+                  "item_kind": "discharge_summary",
+                  "media_ids": [],
+                  "recorded_time": "2026-10-16T09:22:00Z",
+                  "scheduled_for": null,
+                  "untrusted": {
+                    "informant_key": null,
+                    "informant_role": null,
+                    "quote": null,
+                    "source_ref": "synthetic:world-94202:observation-23",
+                    "trust": "untrusted_source_text",
+                    "value": "A document transfer was logged with packet reference 9HR85PQ3PCLM. No return-trip booking reference is stated."
+                  }
+                },
+                {
+                  "author_agent_id": "agent-egh-discharge",
+                  "author_domain_verified": true,
+                  "author_operator": "Example General Hospital",
+                  "author_operator_domain": "examplegeneral.test",
+                  "author_operator_kind": "health_system",
+                  "author_principal_id": "org-example-general",
+                  "basis": "observed",
+                  "effective_time": "2026-10-16T09:30:00Z",
+                  "entered_time": "2026-10-16T09:30:00Z",
+                  "entry_id": 31,
+                  "item_kind": "discharge_summary",
+                  "media_ids": [],
+                  "recorded_time": "2026-10-16T09:30:00Z",
+                  "scheduled_for": null,
+                  "untrusted": {
+                    "informant_key": null,
+                    "informant_role": null,
+                    "quote": null,
+                    "source_ref": "synthetic:world-94202:observation-31",
+                    "trust": "untrusted_source_text",
+                    "value": "A document transfer was logged with packet reference 6EM252Y11YIL. No return-trip booking reference is stated."
+                  }
+                }
+              ],
+              "item_kind": "discharge_summary",
+              "status": "differing_accounts"
+            },
+            {
+              "entries": [
+                {
+                  "author_agent_id": "agent-gardens-notes",
+                  "author_domain_verified": true,
+                  "author_operator": "Example Gardens Assisted Living",
+                  "author_operator_domain": "examplegardens.test",
+                  "author_operator_kind": "facility",
+                  "author_principal_id": "org-example-gardens",
+                  "basis": "observed",
+                  "effective_time": "2026-10-16T09:23:00Z",
+                  "entered_time": "2026-10-16T09:23:00Z",
+                  "entry_id": 24,
+                  "item_kind": "note",
+                  "media_ids": [],
+                  "recorded_time": "2026-10-16T09:23:00Z",
+                  "scheduled_for": null,
+                  "untrusted": {
+                    "informant_key": null,
+                    "informant_role": null,
+                    "quote": null,
+                    "source_ref": "synthetic:world-94202:observation-24",
+                    "trust": "untrusted_source_text",
+                    "value": "A supplies delivery was logged with batch reference 7HDQDLABKDNE. No return-trip booking reference is stated."
+                  }
+                },
+                {
+                  "author_agent_id": "agent-egh-discharge",
+                  "author_domain_verified": true,
+                  "author_operator": "Example General Hospital",
+                  "author_operator_domain": "examplegeneral.test",
+                  "author_operator_kind": "health_system",
+                  "author_principal_id": "org-example-general",
+                  "basis": "observed",
+                  "effective_time": "2026-10-16T09:31:00Z",
+                  "entered_time": "2026-10-16T09:31:00Z",
+                  "entry_id": 32,
+                  "item_kind": "note",
+                  "media_ids": [],
+                  "recorded_time": "2026-10-16T09:31:00Z",
+                  "scheduled_for": null,
+                  "untrusted": {
+                    "informant_key": null,
+                    "informant_role": null,
+                    "quote": null,
+                    "source_ref": "synthetic:world-94202:observation-32",
+                    "trust": "untrusted_source_text",
+                    "value": "A supplies delivery was logged with batch reference FUFKUNNM99AV. No return-trip booking reference is stated."
+                  }
+                }
+              ],
+              "item_kind": "note",
+              "status": "differing_accounts"
+            }
+          ],
+          "cursor": 32,
+          "not_available": [],
+          "person_id": "person-a",
+          "purpose": "care_coordination",
+          "requested_item_kinds": [
+            "mobility",
+            "eating",
+            "medications",
+            "contacts",
+            "sleep",
+            "appointments",
+            "routine",
+            "discharge_summary",
+            "note"
+          ],
+          "since_cursor": null,
+          "verification": {
+            "checked": true,
+            "meaning": "Each claim was checked against the record: every cited entry exists, belongs to this person and item kind, matches what is stored, and is a standing account, and no standing account was left out. This proves correspondence to the record, not that any entry is true.",
+            "problems": []
+          },
+          "withheld_failed_check": []
+        }
+      },
+      "tool": "request_brief"
+    },
+    {
+      "actor": "consent-daughter",
+      "arguments": {
+        "person_id": "person-a"
+      },
+      "elapsed_seconds": 0.0020254580304026604,
+      "response": {
+        "ok": true,
+        "result": {
+          "events": [
+            {
+              "at": "2026-10-16T09:00:00Z",
+              "caller_agent_id": "agent-egh-discharge",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-general",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [],
+              "event_id": 1,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": null,
+              "reason": null,
+              "request_id": 1,
+              "tool": "request_access"
+            },
+            {
+              "at": "2026-10-16T09:00:00Z",
+              "caller_agent_id": null,
+              "caller_kind": "consent_screen",
+              "caller_principal_id": "user-daughter-a",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [],
+              "event_id": 2,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": null,
+              "reason": null,
+              "request_id": 1,
+              "tool": "decide_request"
+            },
+            {
+              "at": "2026-10-16T09:00:00Z",
+              "caller_agent_id": "agent-gardens-notes",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-gardens",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [],
+              "event_id": 3,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": null,
+              "reason": null,
+              "request_id": 2,
+              "tool": "request_access"
+            },
+            {
+              "at": "2026-10-16T09:00:00Z",
+              "caller_agent_id": null,
+              "caller_kind": "consent_screen",
+              "caller_principal_id": "user-daughter-a",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [],
+              "event_id": 4,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": null,
+              "reason": null,
+              "request_id": 2,
+              "tool": "decide_request"
+            },
+            {
+              "at": "2026-10-16T09:00:00Z",
+              "caller_agent_id": "agent-gardens-shift",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-gardens",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [],
+              "event_id": 5,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": null,
+              "reason": null,
+              "request_id": 3,
+              "tool": "request_access"
+            },
+            {
+              "at": "2026-10-16T09:00:00Z",
+              "caller_agent_id": null,
+              "caller_kind": "consent_screen",
+              "caller_principal_id": "user-daughter-a",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [],
+              "event_id": 6,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": null,
+              "reason": null,
+              "request_id": 3,
+              "tool": "decide_request"
+            },
+            {
+              "at": "2026-10-16T09:00:00Z",
+              "caller_agent_id": "agent-gardens-notes",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-gardens",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                1
+              ],
+              "event_id": 7,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:01:00Z",
+              "caller_agent_id": "agent-gardens-notes",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-gardens",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                2
+              ],
+              "event_id": 8,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:02:00Z",
+              "caller_agent_id": "agent-gardens-notes",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-gardens",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                3
+              ],
+              "event_id": 9,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:03:00Z",
+              "caller_agent_id": "agent-gardens-notes",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-gardens",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                4
+              ],
+              "event_id": 10,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:04:00Z",
+              "caller_agent_id": "agent-gardens-notes",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-gardens",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                5
+              ],
+              "event_id": 11,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:05:00Z",
+              "caller_agent_id": "agent-gardens-notes",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-gardens",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                6
+              ],
+              "event_id": 12,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:06:00Z",
+              "caller_agent_id": "agent-gardens-notes",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-gardens",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                7
+              ],
+              "event_id": 13,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:07:00Z",
+              "caller_agent_id": "agent-gardens-notes",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-gardens",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                8
+              ],
+              "event_id": 14,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:08:00Z",
+              "caller_agent_id": "agent-egh-discharge",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-general",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                9
+              ],
+              "event_id": 15,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:09:00Z",
+              "caller_agent_id": "agent-egh-discharge",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-general",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                10
+              ],
+              "event_id": 16,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:10:00Z",
+              "caller_agent_id": "agent-egh-discharge",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-general",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                11
+              ],
+              "event_id": 17,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:11:00Z",
+              "caller_agent_id": "agent-egh-discharge",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-general",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                12
+              ],
+              "event_id": 18,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:12:00Z",
+              "caller_agent_id": "agent-egh-discharge",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-general",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                13
+              ],
+              "event_id": 19,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:13:00Z",
+              "caller_agent_id": "agent-egh-discharge",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-general",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                14
+              ],
+              "event_id": 20,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:14:00Z",
+              "caller_agent_id": "agent-egh-discharge",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-general",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                15
+              ],
+              "event_id": 21,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:15:00Z",
+              "caller_agent_id": "agent-egh-discharge",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-general",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                16
+              ],
+              "event_id": 22,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:16:00Z",
+              "caller_agent_id": "agent-egh-discharge",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-general",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                17
+              ],
+              "event_id": 23,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:17:00Z",
+              "caller_agent_id": "agent-gardens-notes",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-gardens",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                18
+              ],
+              "event_id": 24,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:18:00Z",
+              "caller_agent_id": "agent-gardens-notes",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-gardens",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                19
+              ],
+              "event_id": 25,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:19:00Z",
+              "caller_agent_id": "agent-gardens-notes",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-gardens",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                20
+              ],
+              "event_id": 26,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:20:00Z",
+              "caller_agent_id": "agent-gardens-notes",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-gardens",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                21
+              ],
+              "event_id": 27,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:21:00Z",
+              "caller_agent_id": "agent-gardens-notes",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-gardens",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                22
+              ],
+              "event_id": 28,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:22:00Z",
+              "caller_agent_id": "agent-gardens-notes",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-gardens",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                23
+              ],
+              "event_id": 29,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:23:00Z",
+              "caller_agent_id": "agent-gardens-notes",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-gardens",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                24
+              ],
+              "event_id": 30,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:24:00Z",
+              "caller_agent_id": "agent-egh-discharge",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-general",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                25
+              ],
+              "event_id": 31,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:25:00Z",
+              "caller_agent_id": "agent-egh-discharge",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-general",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                26
+              ],
+              "event_id": 32,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:26:00Z",
+              "caller_agent_id": "agent-egh-discharge",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-general",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                27
+              ],
+              "event_id": 33,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:27:00Z",
+              "caller_agent_id": "agent-egh-discharge",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-general",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                28
+              ],
+              "event_id": 34,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:28:00Z",
+              "caller_agent_id": "agent-egh-discharge",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-general",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                29
+              ],
+              "event_id": 35,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:29:00Z",
+              "caller_agent_id": "agent-egh-discharge",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-general",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                30
+              ],
+              "event_id": 36,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:30:00Z",
+              "caller_agent_id": "agent-egh-discharge",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-general",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                31
+              ],
+              "event_id": 37,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:31:00Z",
+              "caller_agent_id": "agent-egh-discharge",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-general",
+              "entry_ids_disclosed": [],
+              "entry_ids_written": [
+                32
+              ],
+              "event_id": 38,
+              "grant_id": null,
+              "item_kinds_disclosed": [],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "record_observation"
+            },
+            {
+              "at": "2026-10-16T09:32:00Z",
+              "caller_agent_id": "agent-gardens-shift",
+              "caller_kind": "agent",
+              "caller_principal_id": "org-example-gardens",
+              "entry_ids_disclosed": [
+                1,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28,
+                29,
+                30,
+                31,
+                32
+              ],
+              "entry_ids_written": [],
+              "event_id": 39,
+              "grant_id": 3,
+              "item_kinds_disclosed": [
+                "mobility",
+                "eating",
+                "medications",
+                "contacts",
+                "sleep",
+                "appointments",
+                "routine",
+                "discharge_summary",
+                "note"
+              ],
+              "media_id": null,
+              "outcome": "allowed",
+              "person_id": "person-a",
+              "purpose": "care_coordination",
+              "reason": null,
+              "request_id": null,
+              "tool": "request_brief"
+            }
+          ],
+          "next_since_event_id": 39
+        }
+      },
+      "tool": "read_audit"
+    }
+  ],
+  "specification": {
+    "case_id": "test-03",
+    "depth": 0.5,
+    "entries": 32,
+    "seed": 94202,
+    "split": "test",
+    "variant": "ordinary"
+  },
+  "synapse": {
+    "as_of": "2026-10-16T09:32:00Z",
+    "claims": [
+      {
+        "entries": [
+          {
+            "author_agent_id": "agent-gardens-notes",
+            "author_domain_verified": true,
+            "author_operator": "Example Gardens Assisted Living",
+            "author_operator_domain": "examplegardens.test",
+            "author_operator_kind": "facility",
+            "author_principal_id": "org-example-gardens",
+            "basis": "observed",
+            "effective_time": "2026-10-16T09:00:00Z",
+            "entered_time": "2026-10-16T09:00:00Z",
+            "entry_id": 1,
+            "item_kind": "mobility",
+            "media_ids": [],
+            "recorded_time": "2026-10-16T09:00:00Z",
+            "scheduled_for": null,
+            "untrusted": {
+              "informant_key": null,
+              "informant_role": null,
+              "quote": null,
+              "source_ref": "synthetic:world-94202:observation-1",
+              "trust": "untrusted_source_text",
+              "value": "A courtyard walk was logged with route reference NJF2I4W0BCBK. No return-trip booking reference is stated."
+            }
+          },
+          {
+            "author_agent_id": "agent-egh-discharge",
+            "author_domain_verified": true,
+            "author_operator": "Example General Hospital",
+            "author_operator_domain": "examplegeneral.test",
+            "author_operator_kind": "health_system",
+            "author_principal_id": "org-example-general",
+            "basis": "observed",
+            "effective_time": "2026-10-16T09:24:00Z",
+            "entered_time": "2026-10-16T09:24:00Z",
+            "entry_id": 25,
+            "item_kind": "mobility",
+            "media_ids": [],
+            "recorded_time": "2026-10-16T09:24:00Z",
+            "scheduled_for": null,
+            "untrusted": {
+              "informant_key": null,
+              "informant_role": null,
+              "quote": null,
+              "source_ref": "synthetic:world-94202:observation-25",
+              "trust": "untrusted_source_text",
+              "value": "A courtyard walk was logged with route reference GR704C36RP3X. No return-trip booking reference is stated."
+            }
+          }
+        ],
+        "item_kind": "mobility",
+        "status": "differing_accounts"
+      },
+      {
+        "entries": [
+          {
+            "author_agent_id": "agent-gardens-notes",
+            "author_domain_verified": true,
+            "author_operator": "Example Gardens Assisted Living",
+            "author_operator_domain": "examplegardens.test",
+            "author_operator_kind": "facility",
+            "author_principal_id": "org-example-gardens",
+            "basis": "observed",
+            "effective_time": "2026-10-16T09:17:00Z",
+            "entered_time": "2026-10-16T09:17:00Z",
+            "entry_id": 18,
+            "item_kind": "eating",
+            "media_ids": [],
+            "recorded_time": "2026-10-16T09:17:00Z",
+            "scheduled_for": null,
+            "untrusted": {
+              "informant_key": null,
+              "informant_role": null,
+              "quote": null,
+              "source_ref": "synthetic:world-94202:observation-18",
+              "trust": "untrusted_source_text",
+              "value": "A lunch delivery was logged with supplier reference OE6V7SIU3JBW. No return-trip booking reference is stated."
+            }
+          },
+          {
+            "author_agent_id": "agent-egh-discharge",
+            "author_domain_verified": true,
+            "author_operator": "Example General Hospital",
+            "author_operator_domain": "examplegeneral.test",
+            "author_operator_kind": "health_system",
+            "author_principal_id": "org-example-general",
+            "basis": "observed",
+            "effective_time": "2026-10-16T09:25:00Z",
+            "entered_time": "2026-10-16T09:25:00Z",
+            "entry_id": 26,
+            "item_kind": "eating",
+            "media_ids": [],
+            "recorded_time": "2026-10-16T09:25:00Z",
+            "scheduled_for": null,
+            "untrusted": {
+              "informant_key": null,
+              "informant_role": null,
+              "quote": null,
+              "source_ref": "synthetic:world-94202:observation-26",
+              "trust": "untrusted_source_text",
+              "value": "A lunch delivery was logged with supplier reference ABU6H4BRH68W. No return-trip booking reference is stated."
+            }
+          }
+        ],
+        "item_kind": "eating",
+        "status": "differing_accounts"
+      },
+      {
+        "entries": [
+          {
+            "author_agent_id": "agent-gardens-notes",
+            "author_domain_verified": true,
+            "author_operator": "Example Gardens Assisted Living",
+            "author_operator_domain": "examplegardens.test",
+            "author_operator_kind": "facility",
+            "author_principal_id": "org-example-gardens",
+            "basis": "observed",
+            "effective_time": "2026-10-16T09:18:00Z",
+            "entered_time": "2026-10-16T09:18:00Z",
+            "entry_id": 19,
+            "item_kind": "medications",
+            "media_ids": [],
+            "recorded_time": "2026-10-16T09:18:00Z",
+            "scheduled_for": null,
+            "untrusted": {
+              "informant_key": null,
+              "informant_role": null,
+              "quote": null,
+              "source_ref": "synthetic:world-94202:observation-19",
+              "trust": "untrusted_source_text",
+              "value": "An inventory document was filed with tracking reference EDUN422NJAPO. No return-trip booking reference is stated."
+            }
+          },
+          {
+            "author_agent_id": "agent-egh-discharge",
+            "author_domain_verified": true,
+            "author_operator": "Example General Hospital",
+            "author_operator_domain": "examplegeneral.test",
+            "author_operator_kind": "health_system",
+            "author_principal_id": "org-example-general",
+            "basis": "observed",
+            "effective_time": "2026-10-16T09:26:00Z",
+            "entered_time": "2026-10-16T09:26:00Z",
+            "entry_id": 27,
+            "item_kind": "medications",
+            "media_ids": [],
+            "recorded_time": "2026-10-16T09:26:00Z",
+            "scheduled_for": null,
+            "untrusted": {
+              "informant_key": null,
+              "informant_role": null,
+              "quote": null,
+              "source_ref": "synthetic:world-94202:observation-27",
+              "trust": "untrusted_source_text",
+              "value": "An inventory document was filed with tracking reference V0DXWQYR3X1B. No return-trip booking reference is stated."
+            }
+          }
+        ],
+        "item_kind": "medications",
+        "status": "differing_accounts"
+      },
+      {
+        "entries": [
+          {
+            "author_agent_id": "agent-gardens-notes",
+            "author_domain_verified": true,
+            "author_operator": "Example Gardens Assisted Living",
+            "author_operator_domain": "examplegardens.test",
+            "author_operator_kind": "facility",
+            "author_principal_id": "org-example-gardens",
+            "basis": "observed",
+            "effective_time": "2026-10-16T09:19:00Z",
+            "entered_time": "2026-10-16T09:19:00Z",
+            "entry_id": 20,
+            "item_kind": "contacts",
+            "media_ids": [],
+            "recorded_time": "2026-10-16T09:19:00Z",
+            "scheduled_for": null,
+            "untrusted": {
+              "informant_key": null,
+              "informant_role": null,
+              "quote": null,
+              "source_ref": "synthetic:world-94202:observation-20",
+              "trust": "untrusted_source_text",
+              "value": "The service desk supplied its contact reference PHCN91ZV0BNA. No return-trip booking reference is stated."
+            }
+          },
+          {
+            "author_agent_id": "agent-egh-discharge",
+            "author_domain_verified": true,
+            "author_operator": "Example General Hospital",
+            "author_operator_domain": "examplegeneral.test",
+            "author_operator_kind": "health_system",
+            "author_principal_id": "org-example-general",
+            "basis": "observed",
+            "effective_time": "2026-10-16T09:27:00Z",
+            "entered_time": "2026-10-16T09:27:00Z",
+            "entry_id": 28,
+            "item_kind": "contacts",
+            "media_ids": [],
+            "recorded_time": "2026-10-16T09:27:00Z",
+            "scheduled_for": null,
+            "untrusted": {
+              "informant_key": null,
+              "informant_role": null,
+              "quote": null,
+              "source_ref": "synthetic:world-94202:observation-28",
+              "trust": "untrusted_source_text",
+              "value": "The service desk supplied its contact reference K3DK0PUOJSGI. No return-trip booking reference is stated."
+            }
+          }
+        ],
+        "item_kind": "contacts",
+        "status": "differing_accounts"
+      },
+      {
+        "entries": [
+          {
+            "author_agent_id": "agent-gardens-notes",
+            "author_domain_verified": true,
+            "author_operator": "Example Gardens Assisted Living",
+            "author_operator_domain": "examplegardens.test",
+            "author_operator_kind": "facility",
+            "author_principal_id": "org-example-gardens",
+            "basis": "observed",
+            "effective_time": "2026-10-16T09:20:00Z",
+            "entered_time": "2026-10-16T09:20:00Z",
+            "entry_id": 21,
+            "item_kind": "sleep",
+            "media_ids": [],
+            "recorded_time": "2026-10-16T09:20:00Z",
+            "scheduled_for": null,
+            "untrusted": {
+              "informant_key": null,
+              "informant_role": null,
+              "quote": null,
+              "source_ref": "synthetic:world-94202:observation-21",
+              "trust": "untrusted_source_text",
+              "value": "An overnight observation was filed with log reference 7OFXOMSKNEZ9. No return-trip booking reference is stated."
+            }
+          },
+          {
+            "author_agent_id": "agent-egh-discharge",
+            "author_domain_verified": true,
+            "author_operator": "Example General Hospital",
+            "author_operator_domain": "examplegeneral.test",
+            "author_operator_kind": "health_system",
+            "author_principal_id": "org-example-general",
+            "basis": "observed",
+            "effective_time": "2026-10-16T09:28:00Z",
+            "entered_time": "2026-10-16T09:28:00Z",
+            "entry_id": 29,
+            "item_kind": "sleep",
+            "media_ids": [],
+            "recorded_time": "2026-10-16T09:28:00Z",
+            "scheduled_for": null,
+            "untrusted": {
+              "informant_key": null,
+              "informant_role": null,
+              "quote": null,
+              "source_ref": "synthetic:world-94202:observation-29",
+              "trust": "untrusted_source_text",
+              "value": "An overnight observation was filed with log reference LQZSXIETT83O. No return-trip booking reference is stated."
+            }
+          }
+        ],
+        "item_kind": "sleep",
+        "status": "differing_accounts"
+      },
+      {
+        "entries": [
+          {
+            "author_agent_id": "agent-egh-discharge",
+            "author_domain_verified": true,
+            "author_operator": "Example General Hospital",
+            "author_operator_domain": "examplegeneral.test",
+            "author_operator_kind": "health_system",
+            "author_principal_id": "org-example-general",
+            "basis": "observed",
+            "effective_time": "2026-10-16T09:16:00Z",
+            "entered_time": "2026-10-16T09:16:00Z",
+            "entry_id": 17,
+            "item_kind": "appointments",
+            "media_ids": [],
+            "recorded_time": "2026-10-16T09:16:00Z",
+            "scheduled_for": null,
+            "untrusted": {
+              "informant_key": null,
+              "informant_role": null,
+              "quote": null,
+              "source_ref": "synthetic:world-94202:observation-17",
+              "trust": "untrusted_source_text",
+              "value": "The current booking reference for the return trip to Example Gardens is FXR0YWFLJS7Z."
+            }
+          }
+        ],
+        "item_kind": "appointments",
+        "status": "single_account"
+      },
+      {
+        "entries": [
+          {
+            "author_agent_id": "agent-gardens-notes",
+            "author_domain_verified": true,
+            "author_operator": "Example Gardens Assisted Living",
+            "author_operator_domain": "examplegardens.test",
+            "author_operator_kind": "facility",
+            "author_principal_id": "org-example-gardens",
+            "basis": "observed",
+            "effective_time": "2026-10-16T09:21:00Z",
+            "entered_time": "2026-10-16T09:21:00Z",
+            "entry_id": 22,
+            "item_kind": "routine",
+            "media_ids": [],
+            "recorded_time": "2026-10-16T09:21:00Z",
+            "scheduled_for": null,
+            "untrusted": {
+              "informant_key": null,
+              "informant_role": null,
+              "quote": null,
+              "source_ref": "synthetic:world-94202:observation-22",
+              "trust": "untrusted_source_text",
+              "value": "A morning activity was logged with session reference W8IVN41VUPN3. No return-trip booking reference is stated."
+            }
+          },
+          {
+            "author_agent_id": "agent-egh-discharge",
+            "author_domain_verified": true,
+            "author_operator": "Example General Hospital",
+            "author_operator_domain": "examplegeneral.test",
+            "author_operator_kind": "health_system",
+            "author_principal_id": "org-example-general",
+            "basis": "observed",
+            "effective_time": "2026-10-16T09:29:00Z",
+            "entered_time": "2026-10-16T09:29:00Z",
+            "entry_id": 30,
+            "item_kind": "routine",
+            "media_ids": [],
+            "recorded_time": "2026-10-16T09:29:00Z",
+            "scheduled_for": null,
+            "untrusted": {
+              "informant_key": null,
+              "informant_role": null,
+              "quote": null,
+              "source_ref": "synthetic:world-94202:observation-30",
+              "trust": "untrusted_source_text",
+              "value": "A morning activity was logged with session reference EE03K9KZK1SI. No return-trip booking reference is stated."
+            }
+          }
+        ],
+        "item_kind": "routine",
+        "status": "differing_accounts"
+      },
+      {
+        "entries": [
+          {
+            "author_agent_id": "agent-gardens-notes",
+            "author_domain_verified": true,
+            "author_operator": "Example Gardens Assisted Living",
+            "author_operator_domain": "examplegardens.test",
+            "author_operator_kind": "facility",
+            "author_principal_id": "org-example-gardens",
+            "basis": "observed",
+            "effective_time": "2026-10-16T09:22:00Z",
+            "entered_time": "2026-10-16T09:22:00Z",
+            "entry_id": 23,
+            "item_kind": "discharge_summary",
+            "media_ids": [],
+            "recorded_time": "2026-10-16T09:22:00Z",
+            "scheduled_for": null,
+            "untrusted": {
+              "informant_key": null,
+              "informant_role": null,
+              "quote": null,
+              "source_ref": "synthetic:world-94202:observation-23",
+              "trust": "untrusted_source_text",
+              "value": "A document transfer was logged with packet reference 9HR85PQ3PCLM. No return-trip booking reference is stated."
+            }
+          },
+          {
+            "author_agent_id": "agent-egh-discharge",
+            "author_domain_verified": true,
+            "author_operator": "Example General Hospital",
+            "author_operator_domain": "examplegeneral.test",
+            "author_operator_kind": "health_system",
+            "author_principal_id": "org-example-general",
+            "basis": "observed",
+            "effective_time": "2026-10-16T09:30:00Z",
+            "entered_time": "2026-10-16T09:30:00Z",
+            "entry_id": 31,
+            "item_kind": "discharge_summary",
+            "media_ids": [],
+            "recorded_time": "2026-10-16T09:30:00Z",
+            "scheduled_for": null,
+            "untrusted": {
+              "informant_key": null,
+              "informant_role": null,
+              "quote": null,
+              "source_ref": "synthetic:world-94202:observation-31",
+              "trust": "untrusted_source_text",
+              "value": "A document transfer was logged with packet reference 6EM252Y11YIL. No return-trip booking reference is stated."
+            }
+          }
+        ],
+        "item_kind": "discharge_summary",
+        "status": "differing_accounts"
+      },
+      {
+        "entries": [
+          {
+            "author_agent_id": "agent-gardens-notes",
+            "author_domain_verified": true,
+            "author_operator": "Example Gardens Assisted Living",
+            "author_operator_domain": "examplegardens.test",
+            "author_operator_kind": "facility",
+            "author_principal_id": "org-example-gardens",
+            "basis": "observed",
+            "effective_time": "2026-10-16T09:23:00Z",
+            "entered_time": "2026-10-16T09:23:00Z",
+            "entry_id": 24,
+            "item_kind": "note",
+            "media_ids": [],
+            "recorded_time": "2026-10-16T09:23:00Z",
+            "scheduled_for": null,
+            "untrusted": {
+              "informant_key": null,
+              "informant_role": null,
+              "quote": null,
+              "source_ref": "synthetic:world-94202:observation-24",
+              "trust": "untrusted_source_text",
+              "value": "A supplies delivery was logged with batch reference 7HDQDLABKDNE. No return-trip booking reference is stated."
+            }
+          },
+          {
+            "author_agent_id": "agent-egh-discharge",
+            "author_domain_verified": true,
+            "author_operator": "Example General Hospital",
+            "author_operator_domain": "examplegeneral.test",
+            "author_operator_kind": "health_system",
+            "author_principal_id": "org-example-general",
+            "basis": "observed",
+            "effective_time": "2026-10-16T09:31:00Z",
+            "entered_time": "2026-10-16T09:31:00Z",
+            "entry_id": 32,
+            "item_kind": "note",
+            "media_ids": [],
+            "recorded_time": "2026-10-16T09:31:00Z",
+            "scheduled_for": null,
+            "untrusted": {
+              "informant_key": null,
+              "informant_role": null,
+              "quote": null,
+              "source_ref": "synthetic:world-94202:observation-32",
+              "trust": "untrusted_source_text",
+              "value": "A supplies delivery was logged with batch reference FUFKUNNM99AV. No return-trip booking reference is stated."
+            }
+          }
+        ],
+        "item_kind": "note",
+        "status": "differing_accounts"
+      }
+    ],
+    "cursor": 32,
+    "not_available": [],
+    "person_id": "person-a",
+    "purpose": "care_coordination",
+    "requested_item_kinds": [
+      "mobility",
+      "eating",
+      "medications",
+      "contacts",
+      "sleep",
+      "appointments",
+      "routine",
+      "discharge_summary",
+      "note"
+    ],
+    "since_cursor": null,
+    "verification": {
+      "checked": true,
+      "meaning": "Each claim was checked against the record: every cited entry exists, belongs to this person and item kind, matches what is stored, and is a standing account, and no standing account was left out. This proves correspondence to the record, not that any entry is true.",
+      "problems": []
+    },
+    "withheld_failed_check": []
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "charged_usd": 0.4227422,
+  "completed_trials": 162,
+  "failures": [],
+  "groups": [
+    {
+      "all_runs_passed_cases": 6,
+      "arm": "flat_history",
+      "cases": 6,
+      "cost_usd": 0.0839645,
+      "mean_context_characters": 173179.33333333334,
+      "mean_input_tokens": 68795,
+      "mean_output_tokens": 235.08333333333334,
+      "median_model_seconds": 1.714202124509029,
+      "mixed_result_cases": 0,
+      "passed": 12,
+      "phase": "development",
+      "runs": 12
+    },
+    {
+      "all_runs_passed_cases": 6,
+      "arm": "synapse",
+      "cases": 6,
+      "cost_usd": 0.0098713,
+      "mean_context_characters": 19130,
+      "mean_input_tokens": 7356.5,
+      "mean_output_tokens": 173.91666666666666,
+      "median_model_seconds": 1.3458241250482388,
+      "mixed_result_cases": 0,
+      "passed": 12,
+      "phase": "development",
+      "runs": 12
+    },
+    {
+      "all_runs_passed_cases": 6,
+      "arm": "synapse_revised",
+      "cases": 6,
+      "cost_usd": 0.0076507,
+      "mean_context_characters": 12339.166666666666,
+      "mean_input_tokens": 5576,
+      "mean_output_tokens": 159.91666666666666,
+      "median_model_seconds": 1.331371186999604,
+      "mixed_result_cases": 0,
+      "passed": 12,
+      "phase": "retest",
+      "runs": 12
+    },
+    {
+      "all_runs_passed_cases": 14,
+      "arm": "flat_history",
+      "cases": 14,
+      "cost_usd": 0.2597405,
+      "mean_context_characters": 152806.2857142857,
+      "mean_input_tokens": 60759.28571428572,
+      "mean_output_tokens": 216.73809523809524,
+      "median_model_seconds": 1.5403860624646768,
+      "mixed_result_cases": 0,
+      "passed": 42,
+      "phase": "test",
+      "runs": 42
+    },
+    {
+      "all_runs_passed_cases": 14,
+      "arm": "synapse",
+      "cases": 14,
+      "cost_usd": 0.0347565,
+      "mean_context_characters": 19126.85714285714,
+      "mean_input_tokens": 7356.071428571428,
+      "mean_output_tokens": 183.85714285714286,
+      "median_model_seconds": 1.2852285000262782,
+      "mixed_result_cases": 0,
+      "passed": 42,
+      "phase": "test",
+      "runs": 42
+    },
+    {
+      "all_runs_passed_cases": 14,
+      "arm": "synapse_revised",
+      "cases": 14,
+      "cost_usd": 0.0267587,
+      "mean_context_characters": 12335.357142857143,
+      "mean_input_tokens": 5575.285714285715,
+      "mean_output_tokens": 159.16666666666666,
+      "median_model_seconds": 1.2614414374693297,
+      "mixed_result_cases": 0,
+      "passed": 42,
+      "phase": "test",
+      "runs": 42
+    }
+  ],
+  "pending_requests": [],
+  "resolved_models": [
+    "claude-haiku-5-5"
+  ],
+  "scheduled_trials": 162
+}

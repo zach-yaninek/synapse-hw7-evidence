@@ -1,0 +1,11 @@
+{
+  "command": "python3.13 -m pytest -q -p no:cacheprovider",
+  "passed": 1545,
+  "skipped": 5,
+  "failed": 0,
+  "summary": "1545 passed, 5 skipped in 42.67s",
+  "log_sha256": "141f2970e4b406b4c4b98c272ffa255d7ea08578253620f372cf13c6c43ff151",
+  "benchmark_checks": 18,
+  "model_calls_in_tests": 0,
+  "loopback_http_used": true
+}
